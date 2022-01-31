@@ -11,7 +11,6 @@ class ViewController: UIViewController {
     
     @IBOutlet var jokeLabel: UILabel!
     @IBOutlet var punchLineLabel: UILabel!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
