@@ -53,16 +53,24 @@
                         <constraints>
                             <constraint firstItem="0Lx-52-ri2" firstAttribute="top" secondItem="oFV-FS-B2Y" secondAttribute="bottom" constant="25" id="3nk-WC-6CI"/>
                             <constraint firstItem="Lfy-C8-MMk" firstAttribute="top" secondItem="0Lx-52-ri2" secondAttribute="bottom" constant="52" id="5QS-Cg-wa3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lfy-C8-MMk" secondAttribute="trailing" constant="20" id="63O-7L-dKK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0Lx-52-ri2" secondAttribute="trailing" symbolic="YES" id="8Zd-fi-TJx"/>
                             <constraint firstItem="Lfy-C8-MMk" firstAttribute="trailing" secondItem="0Lx-52-ri2" secondAttribute="trailing" id="8vg-v1-jJc"/>
+                            <constraint firstItem="0Lx-52-ri2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Jrk-SL-RJ7"/>
                             <constraint firstItem="Lfy-C8-MMk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="NRR-TB-pqt"/>
                             <constraint firstAttribute="bottomMargin" secondItem="Lfy-C8-MMk" secondAttribute="bottom" constant="-10" id="P1u-7v-Fd1"/>
+                            <constraint firstItem="Lfy-C8-MMk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Q8U-Jk-rOm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oFV-FS-B2Y" secondAttribute="trailing" symbolic="YES" id="QvR-xa-5d8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Lx-52-ri2" secondAttribute="trailing" constant="20" id="Sdh-Ix-ce1"/>
                             <constraint firstItem="0Lx-52-ri2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kDS-Sy-I0s"/>
                             <constraint firstItem="oFV-FS-B2Y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="kkA-mY-fdm"/>
                             <constraint firstItem="oFV-FS-B2Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rMC-gp-K9j"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="appleLink" destination="0Lx-52-ri2" id="0kN-DZ-K8l"/>
+                        <outlet property="webApple" destination="Lfy-C8-MMk" id="sEn-bf-Zo7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
