@@ -73,6 +73,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Uqd-oj-z59" secondAttribute="bottom" constant="8" id="x2y-tP-EVs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textInput" destination="Swr-BU-JRQ" id="Bqw-TW-Gtx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -135,6 +138,9 @@
                             <constraint firstItem="VIv-YN-I9d" firstAttribute="trailing" secondItem="fV7-Zu-Ch2" secondAttribute="trailing" constant="10" id="Sa5-42-jd5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textLabel" destination="YIo-Ku-Cur" id="Cb7-w4-hIt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rvn-dh-UJP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="czo-or-EPN" userLabel="Exit" sceneMemberID="exit"/>
